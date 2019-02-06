@@ -38,20 +38,6 @@ void PrintSLL(SLLNODE* node){
     }
     cout << endl;
 }
-
-void FindMiddle(SLLNODE* node, int &finder){
-    if(node == NULL){
-        
-        return ;
-    }
-    else{
-        finder++;
-        FindMiddle(node->next, finder);
-    }
-    
-}
-    
-    
         
 SLLNODE* FindMiddleOfSLL(SLLNODE* proot){
     int finder = 0;
