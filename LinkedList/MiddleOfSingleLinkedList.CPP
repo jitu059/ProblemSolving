@@ -1,4 +1,7 @@
-// Example program
+/* Given a head pointer of a Single Linked list , find the middle of the Single linked list.
+Complexity of finder method:
+O(n) + O(n/2) 
+*/
 #include <iostream>
 #include <string>
 using namespace std;
